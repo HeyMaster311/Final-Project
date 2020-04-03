@@ -1,1 +1,3 @@
 # Final-Project
+This time I'd like to establish a Multilayer Perceptron. It should be able to predict the future trends of the U.S. COVD-19 epidemic based on existing data from various countries, including the distribution of patients, total population，population density， longitude, latitude, temperature, ethnic composition(say Mongoloid, Indian, Caucasian, American Indian, African, Australoid, Melanesians, Micronesians, Polynesians, different ethnic composition should be considered as an influence on the eprdemic development because of the different mojority of blood type and DNA), and maybe the most important factor, preventive measures.
+
