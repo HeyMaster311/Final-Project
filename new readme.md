@@ -8,5 +8,5 @@ Second, although the information about population and density of different citie
 
 The last point and also I think the most important one is, when I tried to establish the multilayer perceptron, I suddenly realized I have to feed the network with the number of existing cases which vary over time. Time should not be one equivalent feature with the other ones like longitude, latitude and temperature. Most outbreak countries are still in the rising period and inflection point of the epidemic except China. If time is set to be a feature as the others, the prediction results will very likely increase monotonically with time without any possible peak or decreasing. As far as is concerned, the Recurrent neural network might be a better choice to analyze the time-series data.
 
-So I would like to change the topic to designing MLP to recognize handwritten characters through MINIST_dataset.
+So I would like to change the topic to designing MLP to recognize handwritten characters through MINIST_dataset. One reason is that computer vision is a very popular field that I am greatly interested in, especially after we tried implementing the classification for pictures in course.
 
