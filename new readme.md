@@ -1,0 +1,12 @@
+I chose to establish a Multilayer Perceptron which should be able to predict the future trends of the U.S. COVD-19 epidemic based on existing data from various countries, including the distribution of patients, total population，population density， longitude, latitude, temperature, ethnic composition(say Mongoloid, Indian, Caucasian, American Indian, African, Australoid, Melanesians, Micronesians, Polynesians, different ethnic composition should be considered as an influence on the eprdemic development because of the different majority of blood type and DNA), and maybe the most important factor, preventive measures.
+
+However, in practice, my attempt met with great difficulty.
+
+First, in the first half of the epidemic outbreak, most cases happened  in the northern hemisphere. Despite the difference in longitude and latitude, the temperature in these area didn't appear greatly different. As a result it turned to be similar when I tried to collect dataset of temperature refined to different cities.
+
+Second, although the information about population and density of different cities are easy to acquire, I found it extremely hard to accurately divide some of the regional population into different ethnic groups(Mongoloid, Indian, Caucasian, American Indian, African, Australoid, Melanesians, Micronesians, Polynesians). One important reason I think is the trend of globalization and frequent global interaction since modern time, which made it almost impossible to from materials find authoritative and reliable ethnic composition of the epidemic hot areas.
+
+The last point and also I think the most important one is, when I tried to establish the multilayer perceptron, I suddenly realized I have to feed the network with the number of existing cases which vary over time. Time should not be one equivalent feature with the other ones like longitude, latitude and temperature. Most outbreak countries are still in the rising period and inflection point of the epidemic except China. If time is set to be a feature as the others, the prediction results will very likely increase monotonically with time without any possible peak or decreasing. As far as is concerned, the Recurrent neural network might be a better choice to analyze the time-series data.
+
+So I would like to change the topic to designing MLP to recognize handwritten characters through MINIST_dataset.
+
